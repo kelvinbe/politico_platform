@@ -1,0 +1,253 @@
+html,
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-seerif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 234, 255);
+    height: 100%;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    padding-left: 1.2em;
+
+}
+
+li {
+    padding-bottom: 6px;
+}
+
+/* Header **/
+header {
+    background: #010608;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #92a0f0 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #barnding {
+    float: left;
+}
+
+header #barnding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #1d64e8;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url('../img/pic.png') no-repeat 100px -400px;
+    text-align: center;
+    color: #000000;
+
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+
+.column {
+
+    width: 20%;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+.column2 {
+
+    width: 40%;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+#admin {
+    margin-top: 20px;
+}
+
+#admin .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 80;
+    overflow: auto;
+
+}
+
+#admin .sidebar a {
+    display: block;
+    color: #000000;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#admin .sidebar>ul li {
+    padding: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+
+/* pilitician-form*/
+#politi-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px
+}
+
+#politi-form .express {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#politi-form input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+
+}
+
+#politi-form .del-bt input[type=submit] {
+    width: 50%;
+    background-color: rgb(184, 5, 5);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+#politi-form input[type=text],
+select,
+input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+
+#politi-form input[type=submit]:hover {
+    background-color: #1d64e8
+}
+
+/*results-table*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -30px;
+}
+
+footer,
+.push {
+    height: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #005983ad;
+    text-align: center;
+}
