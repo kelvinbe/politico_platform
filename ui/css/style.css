@@ -96,7 +96,7 @@ header a:hover {
     font-size: 20px;
 }
 
-
+/* Votes columns*/
 
 .column {
 
@@ -139,6 +139,8 @@ header a:hover {
 #admin {
     margin-top: 20px;
 }
+
+/* Admin sidebar*/
 
 #admin .sidebar {
     margin: 0;
@@ -233,7 +235,7 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-
+/* wrapper for the entire code*/
 .wrapper {
     min-height: 100%;
 
@@ -242,6 +244,7 @@ tr:nth-child(even) {
     margin-bottom: -30px;
 }
 
+/* Footer code to keep it at the bottom*/
 footer,
 .push {
     height: 30px;
